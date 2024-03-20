@@ -1,0 +1,51 @@
+type: default-flatpaks
+notify: true
+system:
+  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+  repo-name: flathub-system
+  repo-title: "Flathub (System)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+  install:
+    - io.missioncenter.MissionCenter
+    - com.github.tchx84.Flatseal
+    - io.github.fabrialberio.pinapp
+    - com.mattjakeman.ExtensionManager
+    - io.github.flattool.Warehouse
+    - sa.sy.bluerecorder
+    - it.mijorus.gearlever
+    - com.discordapp.Discord
+    - com.github.marhkb.Pods
+    - com.github.tchx84.Flatseal
+    - com.microsoft.Edge
+    - com.prusa3d.PrusaSlicer
+    - com.spotify.Client
+    - com.sweetscape.ZeroOneZeroEditor
+    - com.synology.SynologyDrive
+    - com.uploadedlobster.peek
+    - com.usebottles.bottles
+    - com.valvesoftware.Steam
+    - com.valvesoftware.SteamLink
+    - com.vysp3r.ProtonPlus
+    - hu.irl.cameractrls
+    - im.fluffychat.Fluffychat
+    - io.github.arunsivaramanneo.GPUViewer
+    - io.podman_desktop.PodmanDesktop
+    - md.obsidian.Obsidian
+    - net.davidotek.pupgui2
+    - net.sourceforge.kmidimon
+    - org.blender.Blender
+    - org.fedoraproject.MediaWriter
+    - org.freedesktop.Platform.VulkanInfo
+    - org.onlyoffice.desktopeditors
+    - org.pipewire.Helvum
+    - org.rncbc.qpwgraph
+    - org.sqlitebrowser.sqlitebrowser
+    - org.surge_synth_team.surge-xt
+    - org.tenacityaudio.Tenacity
+    - org.tigervnc.vncviewer
+    - org.videolan.VLC
+    - re.sonny.Junction
+    - studio.kx.carla
+user:
+  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+  repo-name: flathub-user
+  repo-title: "Flathub"

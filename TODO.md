@@ -1,0 +1,8 @@
+- [ ] Create own repo based on this with the WM that worked best for me
+- [ ] Add a simple X11 desktop manager as emergency fallback
+- [ ] Add my justfile, commandline scripts, and images repo
+- [ ] Other tasks based on configuring WM
+- [ ] Add default-flatpaks module for edge
+- [ ] Add some more fonts using the fonts module
+- [ ] Add some of my extra fonts
+- [ ] Use gschema-overrides to set some GTK config options
