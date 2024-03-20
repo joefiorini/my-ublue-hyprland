@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: template
+name: hyprland-nvidia-joegrammer
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
@@ -37,10 +37,6 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-
-  - type: rpm-ostree
-    remove:
-      - sddm
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
