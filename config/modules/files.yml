@@ -1,0 +1,16 @@
+type: files
+files:
+  - usr: /usr # copies config/files/usr into your image's /usr.
+              # put configuration files you want in /etc/ on a booted system 
+              # in /usr/etc/ in the image. read more in files module reference.
+
+
+  # - micro
+  # - starship
+remove:
+  # example: removing firefox (in favor of the flatpak)
+  # "firefox" is the main package, "firefox-langpacks" is a dependency
+  # - firefox
+  # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+
+
