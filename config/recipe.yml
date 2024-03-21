@@ -10,10 +10,13 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - from_file: scripts.yml
-  - from_file: common-packages.yml
-  - from_file: modules/system76.yml
-  - from_file: modules/greeter.yml
-  - from_file: default_flatpaks.yml
+  - from-file: modules/scripts.yml
+  - from-file: modules/common-packages.yml
+  - from-file: modules/system76.yml
+  - from-file: modules/greeter.yml
+  - from-file: modules/efault-flatpaks.yml
+  - type: files
+    files:
+        - usr: /usr
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

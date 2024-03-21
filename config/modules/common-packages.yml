@@ -1,9 +1,12 @@
 type: rpm-ostree
 install:
+# not sure why I need to add this
+  - bolt
+  
 # launcher
   - rofi-wayland
 
-  # shell
+# shell
   - fish
 
 # editor
@@ -17,6 +20,7 @@ install:
 
 # virtualization
   - libvirt
+  - virt-manager
   - qemu-char-spice
   - qemu-device-display-virtio-gpu
   - qemu-device-display-virtio-vga
