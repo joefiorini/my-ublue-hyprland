@@ -14,7 +14,7 @@ modules:
   - from-file: modules/common-packages.yml
   - from-file: modules/system76.yml
   - from-file: modules/greeter.yml
-  - from-file: modules/efault-flatpaks.yml
+  - from-file: modules/default-flatpaks.yml
   - type: files
     files:
         - usr: /usr
