@@ -2,6 +2,9 @@ type: rpm-ostree
 install:
 # not sure why I need to add this
   - bolt
+
+# desktop
+  - dex-autostart
   
 # launcher
   - rofi-wayland
