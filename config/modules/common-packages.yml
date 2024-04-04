@@ -6,9 +6,6 @@ install:
 # desktop
   - dex-autostart
   
-# launcher
-  - rofi-wayland
-
 # shell
   - fish
 
