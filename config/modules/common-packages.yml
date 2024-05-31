@@ -15,7 +15,6 @@ install:
 # podman
   - podman-compose
   - podman-tui
-  - podman-plugins
   - podmansh
 
 # virtualization
